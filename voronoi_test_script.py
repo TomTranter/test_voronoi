@@ -7,7 +7,7 @@ Created on Mon May 12 09:57:42 2014
 The code generates a set of points which represent pores. The voronoi diagram creates
 bounded and unbounded cells around the points which are formed by lines that are equidistant from neighbouring points
 voronoi_test_4 & 5 assume that the adjoining facet normals point from one pore neighbour to the next within the delaunay
-traingulation. This is not the case for a random set of points. test pull
+traingulation. This is not the case for a random set of points. test push
 
 The method for identifying a facet is as follows
 For each point
